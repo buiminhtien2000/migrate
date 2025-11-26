@@ -1,0 +1,22 @@
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+WORKDIR /var/www/html
+
+COPY ./requirements.txt /var/www/html/requirements.txt
+
+RUN pip install --no-cache-dir -r /var/www/html/requirements.txt
+
+RUN apt-get update && apt-get install -y \
+  nodejs \
+  npm \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
+
+COPY ./entrypoint.sh /
+
+RUN chmod +x /entrypoint.sh
+
+CMD ["/entrypoint.sh"]

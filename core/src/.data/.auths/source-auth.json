@@ -1,0 +1,22 @@
+[
+    {
+        "client_id": "local.67ff64cf233df5.42535055",
+        "client_secret": "UndX8MhWX0Kur99qGQuoX0LqujCsEtswrqBXhuo5gkKicvgfn7",
+        "domain": "https://crm.chinmedia.vn/"
+    },
+    {
+        "client_id": "local.67ff651e7310a0.77673261",
+        "client_secret": "pmbmLPz1s8kTgfo0RKO96tsH1mGt41e2wEDilthmqLbolICXIa",
+        "domain": "https://crm.chinmedia.vn/"
+    },
+    {
+        "client_id": "local.67ff65a595ce51.13752112",
+        "client_secret": "HH3Xj3BPKJvolwfL6eSSqiWjga7GrphHHQ85x3frMwNJ3QWo3g",
+        "domain": "https://crm.chinmedia.vn/"
+    },
+    {
+        "client_id": "local.67ff65e14419b8.91198484",
+        "client_secret": "MATpTufamwSw6ruVea90nNG9X0TmU3vaiWRx38HblXvvzFeTvK",
+        "domain": "https://crm.chinmedia.vn/"
+    }
+]
