@@ -1,1 +1,0 @@
-{"last_id": "1091", "total_processed": 1043, "failed": 0, "success": 1043}
